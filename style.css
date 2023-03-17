@@ -1,0 +1,179 @@
+.cala{
+width: 800px;
+margin: auto;
+    display: grid;
+grid-template-areas: 
+    " a a a a "
+    " b b c c"
+    " d e f g"
+    " h i j k"
+    " l m n o "
+    " p q r s "  
+    ;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: 150px ;
+    color: aliceblue;
+    background-color: rgb(57, 53, 255);
+    
+}
+
+.cala{
+border: 5px  rgb(57, 53, 255) solid;
+    
+}
+
+
+.styl{
+
+
+border: 2px rgb(255, 255, 255) solid;
+text-align: center;
+margin: 3px;
+background-color: rgb(57, 53, 255);
+color: aliceblue;
+
+
+}
+.styl p{
+    position:relative;
+
+    font-size: 300%;
+
+}
+
+
+
+#ecran{
+
+grid-area: a;
+background-color: black;
+grid-column: 1/-1;;
+
+}
+
+#ac{
+
+    grid-area: b;
+
+}
+#del{
+
+    grid-area: c;
+
+
+
+}
+#sept{
+
+    grid-area: d;
+
+}
+#huit{
+
+    grid-area: e;
+
+
+
+}
+#neuf{
+
+    grid-area: f;
+
+
+
+}
+#quatre{
+
+    grid-area: h;
+
+
+
+}
+#cinq{
+
+    grid-area: i;
+
+
+
+}
+#six{
+
+    grid-area: j;
+
+
+
+}
+#trois{
+
+    grid-area: n;
+
+
+
+}
+#deux{
+
+    grid-area: m;
+
+
+
+}
+#un{
+
+    grid-area: l;
+   
+
+
+}
+#division{
+
+    grid-area: g;
+
+
+
+}
+#fois{
+
+    grid-area: k;
+
+
+
+}
+#moins{
+
+    grid-area: o;
+
+
+
+}
+
+#plus{
+
+    grid-area: s;
+
+
+
+}
+#zero{
+
+    grid-area: q;
+
+
+
+}
+#egale{
+
+    grid-area: r;
+ 
+
+
+}
+#point{
+
+    grid-area: p;
+
+
+}
+
+
+
+
